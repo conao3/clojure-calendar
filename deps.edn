@@ -1,6 +1,9 @@
 {:deps
  {org.clojure/clojure {:mvn/version "1.12.0"}
-  org.clojure/tools.logging {:mvn/version "1.3.0"}}
+  org.clojure/tools.logging {:mvn/version "1.3.0"}
+  com.github.seancorfield/next.jdbc {:mvn/version "1.3.1002"}
+  org.postgresql/postgresql {:mvn/version "42.7.5"}
+  com.github.seancorfield/honeysql {:mvn/version "2.7.1295"}}
 
  :aliases
  {:dev
