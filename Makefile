@@ -9,3 +9,7 @@ uber:
 .PHONY: clean
 clean:
 	rm -rf target
+
+.PHONY: migrate
+migrate:
+	psqldef postgres -p15432 < schema.sql
