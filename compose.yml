@@ -5,6 +5,8 @@ services:
     volumes:
       - db_data:/var/lib/postgresql/data
     environment:
+      POSTGRES_USER: calendar
+      POSTGRES_DB: calendar
       POSTGRES_PASSWORD: postgrespassword
     ports:
       - 15432:5432

@@ -12,4 +12,4 @@ clean:
 
 .PHONY: migrate
 migrate:
-	psqldef postgres -p15432 < schema.sql
+	psqldef calendar -p15432 < schema.sql
